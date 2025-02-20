@@ -1,0 +1,187 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>改变别人与被别人改变 | 佳木繁阴</title>
+<meta name="description" content="审慎地思考" />
+<link rel="shortcut icon" href="https://chunyan0315.github.io/favicon.ico?v=1740048931125">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://chunyan0315.github.io/styles/main.css">
+
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://chunyan0315.github.io">
+  <img class="avatar" src="https://chunyan0315.github.io/images/avatar.png?v=1740048931125" alt="">
+  </a>
+  <h1 class="site-title">
+    佳木繁阴
+  </h1>
+  <p class="site-description">
+    审慎地思考
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              改变别人与被别人改变
+            </h2>
+            <div class="post-info">
+              <span>
+                2019-12-31
+              </span>
+              <span>
+                2 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>我觉得，不喜欢被人改变是每个人的自主权的表现。<br>
+每个人有每个人的活法。没有人有权利让别人改变。<br>
+家庭、工作的维系其实都是因为利大于弊。<br>
+满足别人的需求是一件很累的事。所以才有工作一说，工作就是满足自己的需求——通过满足别人的需求来获得经济报酬。<br>
+工作还能给我们其他好处：资源（认识行业大佬、设备、资金）、其他人帮你一起完成、认识优秀的人并向他们学习。<br>
+然后我想到，为自己做和为别人做是不一样的，哪怕是做同一件事。<br>
+为了变美而化妆，和上级叫我化妆。都是化妆，但动力不一样。这就是内在动力和外在动力的区别。<br>
+工作也是。工作的动力，首先养活自己，其次养活家人。而且不能较大损害身体和心理健康。<br>
+那么有没有内在动力呢？<br>
+看书便利，有时间做自己的事，能帮助别人找到他们想要的信息。<br>
+而在紧密的关系里，满足别人需求是没有金钱报酬的。它的报酬是其他。<br>
+即使在紧密关系里，也没办法一直满足别人的需求。家庭意味着，分工合作，抵御风险。</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+          
+
+          
+            <link rel="stylesheet" href="https://unpkg.com/disqusjs@1.1/dist/disqusjs.css">
+<script src="https://unpkg.com/disqusjs@1.1/dist/disqus.js"></script>
+
+<div id="disqus_thread"></div>
+
+<script>
+
+var options = {
+  shortname: 'gridea',
+  apikey: 'xArCrZ0zeMFLKt5YoyR5Ba6dvh6yLNW05SHIRDZ2yyXSbWR0eBAg9x7q0dBIz7Om',
+}
+if ('') {
+  options.api = ''
+}
+var dsqjs = new DisqusJS(options)
+
+</script>
+
+          
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
+  <a class="rss" href="https://chunyan0315.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+
+  let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+  // This should probably be throttled.
+  // Especially because it triggers during smooth scrolling.
+  // https://lodash.com/docs/4.17.10#throttle
+  // You could do like...
+  // window.addEventListener("scroll", () => {
+  //    _.throttle(doThatStuff, 100);
+  // });
+  // Only not doing it here to keep this Pen dependency-free.
+
+  window.addEventListener("scroll", event => {
+    let fromTop = window.scrollY;
+
+    mainNavLinks.forEach((link, index) => {
+      let section = document.getElementById(decodeURI(link.hash).substring(1));
+      let nextSection = null
+      if (mainNavLinks[index + 1]) {
+        nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+      }
+      if (section.offsetTop <= fromTop) {
+        if (nextSection) {
+          if (nextSection.offsetTop > fromTop) {
+            link.classList.add("current");
+          } else {
+            link.classList.remove("current");    
+          }
+        } else {
+          link.classList.add("current");
+        }
+      } else {
+        link.classList.remove("current");
+      }
+    });
+  });
+
+</script>
+
+      </div>
+    </div>
+  </body>
+</html>

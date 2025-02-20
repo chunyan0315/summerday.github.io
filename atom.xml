@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://chunyan0315.github.io</id>
+    <title>佳木繁阴</title>
+    <updated>2025-02-20T10:55:34.603Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://chunyan0315.github.io"/>
+    <link rel="self" href="https://chunyan0315.github.io/atom.xml"/>
+    <subtitle>审慎地思考</subtitle>
+    <logo>https://chunyan0315.github.io/images/avatar.png</logo>
+    <icon>https://chunyan0315.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2025, 佳木繁阴</rights>
+</feed>
